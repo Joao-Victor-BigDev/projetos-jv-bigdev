@@ -1,0 +1,7 @@
+print('=====Calculador de media=====')
+nome = input('Informe o nome do aluno ')
+n1 = int(input(f'Me informe a primeira nota do {nome} '))
+n2 = int(input(f'Informe a segunda nota do {nome} '))
+m = (n1 + n2)
+m2 = (m / 2)
+print(f'A media do {nome} de acordo com essas notas eh de {m2}')

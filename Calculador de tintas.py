@@ -1,0 +1,8 @@
+print('===== Contador de quantidade de tinta =====')
+lar = float(input('Me informe a largura de uma parede em metros '))
+a = float(input('Agora informe a altura desta parede em metros '))
+m = (a * lar)
+t = (m / 2)
+print(f'Sua parede tem {m} metros quadrados para ser pintada')
+print('Cada litro de tinta da para pintar 2 metros quadrado')
+print(f'entao voce precisara de {t} litros de tinta')
